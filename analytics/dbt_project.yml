@@ -9,7 +9,6 @@ clean-targets:
   - "target"
   - "dbt_packages"
 
-
-# models:
-#   analytics:
-
+models:
+  analytics:
+    +materialized: table
